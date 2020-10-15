@@ -1,0 +1,51 @@
+
+/*-------------------- Signup --------------------*/
+.signup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 1000px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+}
+.signup-connect, .signup-classic {
+    width: 50%;
+    padding: 30px 50px;
+}
+.signup-connect{
+    background-image: url('https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    height: 500px;
+
+    background-repeat: no-repeat;
+}
+.signup-connect h1{
+    padding-top: 200px;
+}
+.center{
+    padding-top: 100px;
+    /* padding-bottom: px; */
+}
+h1,h2,label{
+    color: #131432;
+}
+
+.box{
+    position: absolute;
+    width: 713px;
+    height: 100%;
+    left: 683px;
+    top: -1px;
+
+    background: #131432;
+    border-radius: 0px;
+    z-index: -1;
+}
+
+.btn-primary{
+    background-color: #131432;
+}
